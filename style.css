@@ -1,0 +1,73 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f9;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    padding: 2em 1em;
+    color: white;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+.about, .gallery, .contact {
+    padding: 2em;
+    text-align: center;
+}
+
+.about h2, .gallery h2, .contact h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.photos {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+.photos img {
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.photos p {
+    margin-top: 0.5em;
+    font-size: 0.9em;
+}
+
+.contact .btn {
+    display: inline-block;
+    background: #ff6f61;
+    color: white;
+    padding: 0.5em 1.5em;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    transition: background 0.3s;
+}
+
+.contact .btn:hover {
+    background: #ff4c3b;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background: #333;
+    color: white;
+}
